@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.topnav {
+	overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: #ff1493;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: yellow;
+	color: hotpink;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: lemonchiffon;
+	color: deeppink;
+}
+body {
+	margin: 0;
+	text-align: center;
+	font-size: 45px;
+	background-color: #fffacd;
+}
+
+h1 {
+	margin: 50px auto 0 auto;
+	font-size: 100px;
+	font-family: 'Lobster', cursive;
+	color: deeppink;
+}
+
+div {
+	display: block;
+}
+.skill-row {
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+}
+
+.top-container {
+	background-color: #fff9b6;
+	position: relative;
+	padding-top: 100px;
+}
+.middle-container {
+	margin: 150px 0;
+}
+
+h2,
+h3 {
+	font-family: 'Padauk', sans-serif;
+	color: hotpink;
+	padding-bottom: 10px;
+}
+.bottomcloud {
+	position: absolute;
+	left: 250px;
+	bottom: 300px;
+}
+.topcloud {
+	position: absolute;
+	right: 300px;
+	top: 40px;
+}
+.sofia {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+}
+p {
+	font-family: 'Padauk', sans-serif;
+	font-weight: normal;
+	line-height: 2;
+}
+a {
+	text-decoration: none;
+	font-family: 'Padauk', sans-serif;
+	color: hotpink;
+	margin: 20px 10px;
+}
+
+.programming {
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+}
+.uxdesign {
+	width: 25%;
+	float: right;
+	margin-left: 30px;
+}
+.btn {
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: 'Padauk', sans-serif;
+	color: #ffffff;
+	font-size: 35px;
+	background: #ff1493;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+hr {
+	border: dotted lightslategray 6px;
+	border-bottom: none;
+	width: 50%;
+	margin: 100px auto;
+}
+.intro {
+	width: 30%;
+	margin: auto;
+}
+.bottom-container {
+	background-color: #fff9b6;
+	padding: 50px 0px 50px;
+}
+.copyright {
+	font-size: 1rem;
+	padding: 20px 0px;
+}
