@@ -122,8 +122,9 @@ a {
 	text-decoration: none;
 }
 hr {
-	border: dotted lightslategray 6px;
+	border: dotted lightslategray 8px;
 	border-bottom: none;
+	background-color:transparent;
 	width: 50%;
 	margin: 100px auto;
 }
